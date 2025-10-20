@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Ejercicio1",
+    "\\Ejercicio2",
+    "\\Ejercicio2\\Ejercicio1",
+    "\\Ejercicio2\\Ejercicio1\\Views",
+    "\\Ejercicio2\\Ejercicio1\\Views\\Home"
   ],
+  "SelectedNode": "\\Ejercicio2\\Ejercicio1\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
