@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <p> @ViewData["Message"]</p>
+
+    <p> @ViewBag.date</p>
+
+    <h2>Datos de la persona:</h2>
+    <ul>
+        <li>Nombre: @Model.name</li>
+        <li>Apellido: @Model.surname</li>
+        <li>Edad: @Model.age</li>
+    </ul>
+</div>
