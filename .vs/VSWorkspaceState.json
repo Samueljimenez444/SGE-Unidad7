@@ -1,12 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Ejercicio1",
     "\\Ejercicio2",
-    "\\Ejercicio2\\Ejercicio1",
-    "\\Ejercicio2\\Ejercicio1\\Views",
-    "\\Ejercicio2\\Ejercicio1\\Views\\Home"
+    "\\Ejercicio2\\Ejercicio1\\Models",
+    "\\Ejercicio2\\Ejercicio1\\Models\\DAL",
+    "\\Ejercicio3",
+    "\\Ejercicio3\\Ejercicio1",
+    "\\Ejercicio3\\Ejercicio1\\Models",
+    "\\Ejercicio3\\Ejercicio1\\Models\\DAL",
+    "\\Ejercicio3\\Ejercicio1\\Views",
+    "\\Ejercicio3\\Ejercicio1\\Views\\Home"
   ],
-  "SelectedNode": "\\Ejercicio2\\Ejercicio1\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\Ejercicio3\\Ejercicio1\\Models\\DAL\\Data.cs",
   "PreviewInSolutionExplorer": false
 }

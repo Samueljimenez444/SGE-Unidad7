@@ -1,0 +1,29 @@
+﻿@model Ejercicio1.Models.Entity.clsPerson
+
+<h2>Tercera Persona</h2>
+
+@if (Model != null)
+{
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.name</td>
+            <td>@Model.surname</td>
+            <td>@Model.age</td>
+        </tr>
+    </tbody>
+</table>
+}
+else
+{
+<p>No hay suficiente personas en la lista.</p>
+}
+
+<p>@Html.ActionLink("Volver al Index", "Index", "Home")</p>

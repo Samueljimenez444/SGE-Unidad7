@@ -1,25 +1,25 @@
-﻿@model List<Ejercicio1.Models.Entity.clsPerson>
+﻿@using Ejercicio1.Models.DAL
+@model List<Ejercicio1.Models.Entity.clsPerson>
+    <h2>Listado de Personas</h2>
 
-<h2>Listado de Personas</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
 
-<table border="1">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Surname</th>
-            <th>Age</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var person in DAL)
-        {
+            @foreach (var person in Model.Where(p => p.id == 3)){
             <tr>
                 <td>@person.name</td>
                 <td>@person.surname</td>
                 <td>@person.age</td>
             </tr>
-        }
-    </tbody>
-</table>
+            }
+        </tbody>
+    </table>
 
-<p>@Html.ActionLink("Volver al Index", "Index", "Home")</p>
+    <p>@Html.ActionLink("Volver al Index", "Index", "Home")</p>
